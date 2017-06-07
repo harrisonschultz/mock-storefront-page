@@ -2,7 +2,9 @@
 
 /* Header*/
 nav#menuBar{
-	background-color: rgba(64,54,47,0.8);
+	background-color: #40362f;
+	height: 40px;
+	margin: -0 -0 20px 0;
 }
 
 #menuBar li{
@@ -16,8 +18,10 @@ nav#menuBar{
 
 /*Body*/
 body{
-background: url(img/wood.jpg) no-repeat fixed top center;
-font-family: verdana,arial,sans-serif;
+	background: url(img/wood.jpg) no-repeat fixed top center;
+	font-family: verdana,arial,sans-serif;
+	background-size: auto;
+	width: auto;
 }
 
 section div.panel{
@@ -26,8 +30,9 @@ section div.panel{
 	width: 350px;
 	margin: 0 0.5em 2.0em 0.5em;
 	padding: 1.0em;
-	background-color: rgba(255,255,255,0.75);
-	
+	background-color: rgba(64,54,47,1);
+	color: rgb(0,150,150);
+ 	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 	border-top: 10px solid rgb(0,150,150);
 	border-radius: 0.4em;
 }
@@ -49,13 +54,16 @@ footer{
 	height: 25px;
 	font-size: 1.2em;
 	color: #fff;
-	width: 100%;
+	margin-right: -8px;
+	margin-left: -8px;
 	text-align: center;
 	padding: 1.5em 2.0em;
 
 }
 footer ul{
 	list-style: none;
+	display: inline-block;
+	float: right;
 }
 /*Clear*/
 div.clear{
